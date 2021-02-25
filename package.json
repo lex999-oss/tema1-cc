@@ -1,0 +1,33 @@
+{
+    "name": "lab1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "tsc server.ts --resolveJsonModule && tsc script.ts && node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "commonjs": "0.0.1",
+        "config": "^3.3.3",
+        "custom-env": "^2.0.1",
+        "log4ts": "^0.4.2",
+        "net-ping": "^1.2.3",
+        "node-fetch": "^2.6.1",
+        "parallel-http-request": "^1.1.3",
+        "performance": "^1.4.0",
+        "request": "^2.88.2",
+        "tsc": "^1.20150623.0",
+        "tslint": "^6.1.3",
+        "tslog": "^3.1.1",
+        "typescript": "^4.1.5"
+    },
+    "devDependencies": {
+        "@types/config": "0.0.38",
+        "@types/node": "^14.14.31",
+        "@types/request": "^2.48.5"
+    }
+}
